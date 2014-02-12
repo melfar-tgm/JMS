@@ -20,6 +20,8 @@ public class JMSChatSender {
 	
   public static void main( String[] args ) {
 		
+	  //InetAddress.getLocalHost().getHostAddress()
+	  
 	  // Create the connection.
 	  Session session = null;
 	  Connection connection = null;
