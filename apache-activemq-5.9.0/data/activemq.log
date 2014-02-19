@@ -79,3 +79,114 @@
 2014-02-13 11:24:22,853 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
 2014-02-13 17:04:15,056 | WARN  | Transport Connection to: tcp://127.0.0.1:49311 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:49311@61616
 2014-02-13 17:08:53,992 | WARN  | Transport Connection to: tcp://10.0.104.89:49231 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///10.0.104.89:49231@61616
+2014-02-13 17:40:32,353 | WARN  | Transport Connection to: tcp://10.0.105.44:49348 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///10.0.105.44:49348@61616
+2014-02-13 18:13:22,310 | WARN  | Transport Connection to: tcp://10.0.104.89:49228 failed: java.net.SocketException: Software caused connection abort: recv failed | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///10.0.104.89:49228@61616
+2014-02-13 22:41:23,965 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@5a4bccdd: startup date [Thu Feb 13 22:41:23 CET 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-02-13 22:41:27,766 | INFO  | PListStore:[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-02-13 22:41:27,801 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-02-13 22:41:28,377 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-13 22:41:28,585 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-13 22:41:29,761 | INFO  | Recovery replayed 15413 operations from the journal in 1.37 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-13 22:41:30,367 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-49966-1392327690023-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-02-13 22:41:30,475 | INFO  | Listening for connections at: tcp://METACER:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-13 22:41:30,478 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-02-13 22:41:30,486 | INFO  | Listening for connections at: amqp://METACER:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-13 22:41:30,487 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-13 22:41:30,493 | INFO  | Listening for connections at: stomp://METACER:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-13 22:41:30,496 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-13 22:41:30,503 | INFO  | Listening for connections at: mqtt://METACER:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-13 22:41:30,504 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-02-13 22:41:31,818 | INFO  | Listening for connections at ws://METACER:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-02-13 22:41:31,819 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-02-13 22:41:31,822 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-49966-1392327690023-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-02-13 22:41:31,823 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-02-13 22:41:35,242 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | main
+2014-02-13 22:41:35,385 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | main
+2014-02-13 22:41:37,650 | INFO  | Using file upload directory: C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\tmp\uploads | io.hawt.web.UploadServlet | main
+2014-02-13 22:41:38,068 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | main
+2014-02-13 22:41:40,349 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-02-13 22:41:41,438 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-02-13 22:42:32,342 | WARN  | Transport Connection to: tcp://127.0.0.1:49981 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:49981@61616
+2014-02-13 22:42:48,735 | WARN  | Transport Connection to: tcp://127.0.0.1:50029 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:50029@61616
+2014-02-13 22:50:57,310 | WARN  | Transport Connection to: tcp://127.0.0.1:50417 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:50417@61616
+2014-02-13 23:05:48,422 | WARN  | Transport Connection to: tcp://127.0.0.1:51082 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51082@61616
+2014-02-13 23:31:22,207 | WARN  | Transport Connection to: tcp://127.0.0.1:51749 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51749@61616
+2014-02-19 12:51:11,252 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@14552da4: startup date [Wed Feb 19 12:51:11 CET 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-02-19 12:51:12,969 | INFO  | PListStore:[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-02-19 12:51:13,000 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:13,630 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 12:51:13,695 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 12:51:14,199 | INFO  | Recovery replayed 16051 operations from the journal in 0.556 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 12:51:14,529 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-51605-1392810674341-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:14,649 | INFO  | Listening for connections at: tcp://METACER:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:14,652 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:14,659 | INFO  | Listening for connections at: amqp://METACER:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:14,661 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:14,666 | INFO  | Listening for connections at: stomp://METACER:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:14,667 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:14,673 | INFO  | Listening for connections at: mqtt://METACER:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:14,674 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:14,905 | INFO  | Listening for connections at ws://METACER:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-02-19 12:51:14,906 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:14,908 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-51605-1392810674341-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:14,909 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:15,688 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | main
+2014-02-19 12:51:15,729 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | main
+2014-02-19 12:51:16,031 | INFO  | Using file upload directory: C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\tmp\uploads | io.hawt.web.UploadServlet | main
+2014-02-19 12:51:16,045 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | main
+2014-02-19 12:51:16,728 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-02-19 12:51:17,052 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-02-19 12:51:46,684 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@14552da4: startup date [Wed Feb 19 12:51:46 CET 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-02-19 12:51:47,664 | INFO  | PListStore:[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-02-19 12:51:47,694 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:48,196 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 12:51:48,220 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 12:51:48,699 | INFO  | Recovery replayed 16058 operations from the journal in 0.489 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 12:51:48,853 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-51645-1392810708723-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:48,872 | INFO  | Listening for connections at: tcp://METACER:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:48,874 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:48,881 | INFO  | Listening for connections at: amqp://METACER:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:48,883 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:48,887 | INFO  | Listening for connections at: stomp://METACER:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:48,889 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:48,893 | INFO  | Listening for connections at: mqtt://METACER:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 12:51:48,895 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:49,002 | INFO  | Listening for connections at ws://METACER:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-02-19 12:51:49,003 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 12:51:49,005 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-51645-1392810708723-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:49,006 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-02-19 12:51:49,346 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | main
+2014-02-19 12:51:49,352 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | main
+2014-02-19 12:51:49,399 | INFO  | Using file upload directory: C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\tmp\uploads | io.hawt.web.UploadServlet | main
+2014-02-19 12:51:49,413 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | main
+2014-02-19 12:51:49,608 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-02-19 12:51:49,644 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-02-19 12:56:40,605 | WARN  | Transport Connection to: tcp://127.0.0.1:51774 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51774@61616
+2014-02-19 12:57:01,906 | WARN  | Transport Connection to: tcp://127.0.0.1:51897 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51897@61616
+2014-02-19 13:51:54,897 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@64277469: startup date [Wed Feb 19 13:51:54 CET 2014]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2014-02-19 13:51:55,935 | INFO  | PListStore:[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2014-02-19 13:51:55,966 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2014-02-19 13:51:56,467 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 13:51:56,492 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 13:51:57,016 | INFO  | Recovery replayed 16769 operations from the journal in 0.534 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2014-02-19 13:51:57,170 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-62032-1392814317041-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2014-02-19 13:51:57,219 | INFO  | Listening for connections at: tcp://METACER:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 13:51:57,221 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 13:51:57,228 | INFO  | Listening for connections at: amqp://METACER:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 13:51:57,229 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 13:51:57,234 | INFO  | Listening for connections at: stomp://METACER:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 13:51:57,235 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 13:51:57,240 | INFO  | Listening for connections at: mqtt://METACER:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2014-02-19 13:51:57,241 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 13:51:57,353 | INFO  | Listening for connections at ws://METACER:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2014-02-19 13:51:57,354 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2014-02-19 13:51:57,356 | INFO  | Apache ActiveMQ 5.9.0 (localhost, ID:METACER-62032-1392814317041-0:1) started | org.apache.activemq.broker.BrokerService | main
+2014-02-19 13:51:57,358 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2014-02-19 13:51:57,741 | INFO  | Welcome to hawtio 1.2-M23 : http://hawt.io/ : Don't cha wish your console was hawt like me? ;-) | io.hawt.jmx.JmxTreeWatcher | main
+2014-02-19 13:51:57,747 | INFO  | Starting hawtio authentication filter, JAAS realm: "activemq" authorized role: "admins" role principal classes: "org.apache.activemq.jaas.GroupPrincipal" | io.hawt.web.AuthenticationFilter | main
+2014-02-19 13:51:57,796 | INFO  | Using file upload directory: C:\Users\Meta\Dropbox\Schule\SEW\EclipseWorkspace\JMS\apache-activemq-5.9.0\bin\..\data\tmp\uploads | io.hawt.web.UploadServlet | main
+2014-02-19 13:51:57,811 | INFO  | jolokia-agent: Using access restrictor classpath:/jolokia-access.xml | /hawtio | main
+2014-02-19 13:51:58,029 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2014-02-19 13:51:58,062 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2014-02-19 13:53:22,344 | WARN  | Transport Connection to: tcp://127.0.0.1:62087 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:62087@61616
+2014-02-19 13:54:44,572 | WARN  | Transport Connection to: tcp://127.0.0.1:62130 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:62130@61616
